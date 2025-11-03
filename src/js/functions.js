@@ -20,7 +20,7 @@ const renderIllustrations = async () => {
       card.innerHTML = `
         <h3 class="text-lg font-semibold text-zinc-950 dark:text-zinc-50">${item.title}</h3>
         <h4 class="text-sm text-zinc-500 dark:text-zinc-400">${item.año}</h4>
-        <p class="mt-2 text-sm text-zinc-600 dark:text-zinc-400 line-clamp-3">
+        <p class="text-justify mt-2 text-sm text-zinc-600 dark:text-zinc-400 line-clamp-3">
           ${item.description}
         </p>
 
